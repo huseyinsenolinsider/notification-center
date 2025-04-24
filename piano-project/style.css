@@ -1,0 +1,45 @@
+#piano-wrapper {
+    display: grid;
+    gap: 5px;
+}
+
+.play-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.play-button {
+    border: 2px solid;
+    padding: 1px;
+}
+
+.hidden {
+    display: none;
+}
+
+.play-button:hover {
+    transform: translateY(+5px);
+}
+
+#record {
+    background-color: red;
+}
+
+#stop {
+    background-color: yellow;
+}
+
+#play {
+    background-color: green;
+}
+
+.recording {
+    transform: translateY(+5px) !important;
+
+}
+
+.playing {
+    transform: translateY(+5px) !important;
+}
